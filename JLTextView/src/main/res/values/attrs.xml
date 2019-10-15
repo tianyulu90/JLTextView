@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="EndLineIndentationTextView">
+
+        <attr name="text_size" format="dimension" />
+        <attr name="text_color" format="color" />
+        <attr name="followed_text_size" format="dimension" />
+        <attr name="followed_text_color" format="color" />
+        <attr name="lineSpacingExtraAdd" format="dimension" />
+        <attr name="lineSpacingExtraMult" format="dimension" />
+        <attr name="max_lines" format="integer" />
+        <attr name="text" format="string" />
+        <attr name="followed_fold_text" format="string" />
+        <attr name="followed_expand_text" format="string" />
+        <attr name="endLineIndent" format="dimension" />
+        <attr name="followedHideable" format="boolean" />
+        <attr name="ending_drawable" format="reference" />
+        <attr name="ending_drawable_width" format="dimension" />
+        <attr name="ending_drawable_height" format="dimension"/>
+        <attr name="follow_type">
+            <enum name="end" value="3" />
+            <enum name="start" value="4" />
+        </attr>
+    </declare-styleable>
+</resources>
